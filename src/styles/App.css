@@ -1,1 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container h1 {
+  margin-bottom: 40px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: black;
+  color: white;
+
+  padding: 8px 12px;
+  border-radius: 5px;
+
+  font-size: 14px;
+  white-space: nowrap;
+
+  z-index: 1;
+}
